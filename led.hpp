@@ -5,13 +5,16 @@
 
 class led
 {
+private:
+    int pin = 15;
+    int count = 0;
+    bool state = false;
 public:
-    int x = 15;
     void print();
     led();
+    led(int pin, int count, bool state);
     ~led();
 
-private:
 
 };
 
