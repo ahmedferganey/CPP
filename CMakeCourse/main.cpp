@@ -1,8 +1,9 @@
 #include <iostream>
 #include "calc.hpp"
+#include "wifi.hpp"
 
-int main()
+int main() 
 {
-    std::cout << sum(1,2);
+    wifi_init();
     return 0;
 }
