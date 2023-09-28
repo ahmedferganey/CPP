@@ -1,0 +1,3 @@
+/home/ahmed-ferganey/Desktop/MyGitHub/CPP/build/CMakeFiles/example_00.dir
+/home/ahmed-ferganey/Desktop/MyGitHub/CPP/build/CMakeFiles/edit_cache.dir
+/home/ahmed-ferganey/Desktop/MyGitHub/CPP/build/CMakeFiles/rebuild_cache.dir
