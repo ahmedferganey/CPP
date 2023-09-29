@@ -1,4 +1,4 @@
-# Install script for directory: /home/ahmed-ferganey/Desktop/MyGitHub/CPP
+# Install script for directory: /home/ahmed-ferganey/Desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ahmed-ferganey/Desktop/MyGitHub/CPP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ahmed-ferganey/Desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
