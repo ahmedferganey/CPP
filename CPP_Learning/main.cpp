@@ -11,10 +11,14 @@ int main()
   
   std::cout << "Hello World!" << std::endl;
   
+  cout << "Hello World! \n";
+
+
   std::cout << x * y << std::endl;
   
   
-  
+  cout << "Hello World! \n";
+
   
   }
 
