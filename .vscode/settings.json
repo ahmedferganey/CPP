@@ -1,0 +1,4 @@
+{
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}/Learning/CPP_CMake_Make_EmbeddedLinux_Master/build/compile_commands.json",
+    "cmake.sourceDirectory": "/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning"
+}

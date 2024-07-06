@@ -1,3 +1,0 @@
-/home/ahmed-ferganey/Desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/example_00.dir
-/home/ahmed-ferganey/Desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/edit_cache.dir
-/home/ahmed-ferganey/Desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/rebuild_cache.dir
