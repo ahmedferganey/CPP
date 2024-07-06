@@ -1,9 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
+int main() 
+{
+  int x = 5;
+  int y = 10;
+
+
+  
+  
+  std::cout << "Hello World!" << std::endl;
+  
+  std::cout << x * y << std::endl;
+  
+  
+  
+  
+  }
 
 
