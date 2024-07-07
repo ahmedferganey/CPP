@@ -129,6 +129,80 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named ProjectOne
+
+# Build rule for target.
+ProjectOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectOne
+.PHONY : ProjectOne
+
+# fast build rule for target.
+ProjectOne/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/build
+.PHONY : ProjectOne/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwo
+
+# Build rule for target.
+ProjectTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwo
+.PHONY : ProjectTwo
+
+# fast build rule for target.
+ProjectTwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/build
+.PHONY : ProjectTwo/fast
+
+Automatic_Type_Deduction.o: Automatic_Type_Deduction.cpp.o
+.PHONY : Automatic_Type_Deduction.o
+
+# target to build an object file
+Automatic_Type_Deduction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/Automatic_Type_Deduction.cpp.o
+.PHONY : Automatic_Type_Deduction.cpp.o
+
+Automatic_Type_Deduction.i: Automatic_Type_Deduction.cpp.i
+.PHONY : Automatic_Type_Deduction.i
+
+# target to preprocess a source file
+Automatic_Type_Deduction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/Automatic_Type_Deduction.cpp.i
+.PHONY : Automatic_Type_Deduction.cpp.i
+
+Automatic_Type_Deduction.s: Automatic_Type_Deduction.cpp.s
+.PHONY : Automatic_Type_Deduction.s
+
+# target to generate assembly for a file
+Automatic_Type_Deduction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/Automatic_Type_Deduction.cpp.s
+.PHONY : Automatic_Type_Deduction.cpp.s
+
+Practical_Considerations_with_Cpp_Data_Types.o: Practical_Considerations_with_Cpp_Data_Types.cpp.o
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.o
+
+# target to build an object file
+Practical_Considerations_with_Cpp_Data_Types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/Practical_Considerations_with_Cpp_Data_Types.cpp.o
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.cpp.o
+
+Practical_Considerations_with_Cpp_Data_Types.i: Practical_Considerations_with_Cpp_Data_Types.cpp.i
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.i
+
+# target to preprocess a source file
+Practical_Considerations_with_Cpp_Data_Types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/Practical_Considerations_with_Cpp_Data_Types.cpp.i
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.cpp.i
+
+Practical_Considerations_with_Cpp_Data_Types.s: Practical_Considerations_with_Cpp_Data_Types.cpp.s
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.s
+
+# target to generate assembly for a file
+Practical_Considerations_with_Cpp_Data_Types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/Practical_Considerations_with_Cpp_Data_Types.cpp.s
+.PHONY : Practical_Considerations_with_Cpp_Data_Types.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -161,7 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ProjectOne"
+	@echo "... ProjectTwo"
 	@echo "... main"
+	@echo "... Automatic_Type_Deduction.o"
+	@echo "... Automatic_Type_Deduction.i"
+	@echo "... Automatic_Type_Deduction.s"
+	@echo "... Practical_Considerations_with_Cpp_Data_Types.o"
+	@echo "... Practical_Considerations_with_Cpp_Data_Types.i"
+	@echo "... Practical_Considerations_with_Cpp_Data_Types.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/ProjectOne.dir/all
+all: CMakeFiles/ProjectTwo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +74,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/ProjectOne.dir/clean
+clean: CMakeFiles/ProjectTwo.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +85,7 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=1,2 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=5,6 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +103,58 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectOne.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectOne.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=1,2 "Built target ProjectOne"
+.PHONY : CMakeFiles/ProjectOne.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectOne.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectOne.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectOne.dir/rule
+
+# Convenience name for target.
+ProjectOne: CMakeFiles/ProjectOne.dir/rule
+.PHONY : ProjectOne
+
+# clean rule for target.
+CMakeFiles/ProjectOne.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/clean
+.PHONY : CMakeFiles/ProjectOne.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectTwo.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectTwo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=3,4 "Built target ProjectTwo"
+.PHONY : CMakeFiles/ProjectTwo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectTwo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectTwo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectTwo.dir/rule
+
+# Convenience name for target.
+ProjectTwo: CMakeFiles/ProjectTwo.dir/rule
+.PHONY : ProjectTwo
+
+# clean rule for target.
+CMakeFiles/ProjectTwo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/clean
+.PHONY : CMakeFiles/ProjectTwo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

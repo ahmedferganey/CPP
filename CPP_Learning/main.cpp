@@ -7,8 +7,9 @@ int main()
   int y = 10;
   int z = {10};
   const float pi = 3.14;
-
   bool myBoolean = true;       // Boolean (true or false)
+  int myAge = 35;
+
 
 
   std::cout << "Hello World!" << std::endl;
@@ -17,10 +18,7 @@ int main()
   std::cout << x * y * z<< std::endl;
   cout << "Hello World! \n";
   cout << pi << "\n";
-
-  int myAge = 35;
   cout << "I am " << myAge << " years old.";
-
 
   }
 
