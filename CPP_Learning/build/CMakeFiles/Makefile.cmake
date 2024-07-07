@@ -46,4 +46,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/ProjectOne.dir/DependInfo.cmake"
   "CMakeFiles/ProjectTwo.dir/DependInfo.cmake"
+  "CMakeFiles/ProjectThree.dir/DependInfo.cmake"
+  "CMakeFiles/ProjectFour.dir/DependInfo.cmake"
   )
