@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Pointer.cpp" "CMakeFiles/ProjectFour.dir/Pointer.cpp.o" "gcc" "CMakeFiles/ProjectFour.dir/Pointer.cpp.o.d"
+  "/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Decltype.cpp" "CMakeFiles/ProjectFour.dir/Decltype.cpp.o" "gcc" "CMakeFiles/ProjectFour.dir/Decltype.cpp.o.d"
   )
 
 # Targets to which this target links.

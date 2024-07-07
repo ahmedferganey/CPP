@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProjectFour.dir/Pointer.cpp.o"
-  "CMakeFiles/ProjectFour.dir/Pointer.cpp.o.d"
+  "CMakeFiles/ProjectFour.dir/Decltype.cpp.o"
+  "CMakeFiles/ProjectFour.dir/Decltype.cpp.o.d"
   "ProjectFour"
   "ProjectFour.pdb"
 )

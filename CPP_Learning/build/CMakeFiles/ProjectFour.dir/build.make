@@ -69,28 +69,28 @@ include CMakeFiles/ProjectFour.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProjectFour.dir/flags.make
 
-CMakeFiles/ProjectFour.dir/Pointer.cpp.o: CMakeFiles/ProjectFour.dir/flags.make
-CMakeFiles/ProjectFour.dir/Pointer.cpp.o: ../Pointer.cpp
-CMakeFiles/ProjectFour.dir/Pointer.cpp.o: CMakeFiles/ProjectFour.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectFour.dir/Pointer.cpp.o"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectFour.dir/Pointer.cpp.o -MF CMakeFiles/ProjectFour.dir/Pointer.cpp.o.d -o CMakeFiles/ProjectFour.dir/Pointer.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Pointer.cpp
+CMakeFiles/ProjectFour.dir/Decltype.cpp.o: CMakeFiles/ProjectFour.dir/flags.make
+CMakeFiles/ProjectFour.dir/Decltype.cpp.o: ../Decltype.cpp
+CMakeFiles/ProjectFour.dir/Decltype.cpp.o: CMakeFiles/ProjectFour.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectFour.dir/Decltype.cpp.o"
+	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectFour.dir/Decltype.cpp.o -MF CMakeFiles/ProjectFour.dir/Decltype.cpp.o.d -o CMakeFiles/ProjectFour.dir/Decltype.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Decltype.cpp
 
-CMakeFiles/ProjectFour.dir/Pointer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectFour.dir/Pointer.cpp.i"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Pointer.cpp > CMakeFiles/ProjectFour.dir/Pointer.cpp.i
+CMakeFiles/ProjectFour.dir/Decltype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectFour.dir/Decltype.cpp.i"
+	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Decltype.cpp > CMakeFiles/ProjectFour.dir/Decltype.cpp.i
 
-CMakeFiles/ProjectFour.dir/Pointer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectFour.dir/Pointer.cpp.s"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Pointer.cpp -o CMakeFiles/ProjectFour.dir/Pointer.cpp.s
+CMakeFiles/ProjectFour.dir/Decltype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectFour.dir/Decltype.cpp.s"
+	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/Decltype.cpp -o CMakeFiles/ProjectFour.dir/Decltype.cpp.s
 
 # Object files for target ProjectFour
 ProjectFour_OBJECTS = \
-"CMakeFiles/ProjectFour.dir/Pointer.cpp.o"
+"CMakeFiles/ProjectFour.dir/Decltype.cpp.o"
 
 # External object files for target ProjectFour
 ProjectFour_EXTERNAL_OBJECTS =
 
-ProjectFour: CMakeFiles/ProjectFour.dir/Pointer.cpp.o
+ProjectFour: CMakeFiles/ProjectFour.dir/Decltype.cpp.o
 ProjectFour: CMakeFiles/ProjectFour.dir/build.make
 ProjectFour: CMakeFiles/ProjectFour.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectFour"

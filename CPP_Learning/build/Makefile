@@ -181,6 +181,58 @@ ProjectFour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/build
 .PHONY : ProjectFour/fast
 
+#=============================================================================
+# Target rules for targets named ProjectFive
+
+# Build rule for target.
+ProjectFive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectFive
+.PHONY : ProjectFive
+
+# fast build rule for target.
+ProjectFive/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/build
+.PHONY : ProjectFive/fast
+
+#=============================================================================
+# Target rules for targets named ProjectSix
+
+# Build rule for target.
+ProjectSix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectSix
+.PHONY : ProjectSix
+
+# fast build rule for target.
+ProjectSix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/build
+.PHONY : ProjectSix/fast
+
+#=============================================================================
+# Target rules for targets named ProjectSeven
+
+# Build rule for target.
+ProjectSeven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectSeven
+.PHONY : ProjectSeven
+
+# fast build rule for target.
+ProjectSeven/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/build
+.PHONY : ProjectSeven/fast
+
+#=============================================================================
+# Target rules for targets named ProjectEight
+
+# Build rule for target.
+ProjectEight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectEight
+.PHONY : ProjectEight
+
+# fast build rule for target.
+ProjectEight/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/build
+.PHONY : ProjectEight/fast
+
 Automatic_Type_Deduction.o: Automatic_Type_Deduction.cpp.o
 .PHONY : Automatic_Type_Deduction.o
 
@@ -205,12 +257,36 @@ Automatic_Type_Deduction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/Automatic_Type_Deduction.cpp.s
 .PHONY : Automatic_Type_Deduction.cpp.s
 
+Decltype.o: Decltype.cpp.o
+.PHONY : Decltype.o
+
+# target to build an object file
+Decltype.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Decltype.cpp.o
+.PHONY : Decltype.cpp.o
+
+Decltype.i: Decltype.cpp.i
+.PHONY : Decltype.i
+
+# target to preprocess a source file
+Decltype.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Decltype.cpp.i
+.PHONY : Decltype.cpp.i
+
+Decltype.s: Decltype.cpp.s
+.PHONY : Decltype.s
+
+# target to generate assembly for a file
+Decltype.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Decltype.cpp.s
+.PHONY : Decltype.cpp.s
+
 Pointer.o: Pointer.cpp.o
 .PHONY : Pointer.o
 
 # target to build an object file
 Pointer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Pointer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/Pointer.cpp.o
 .PHONY : Pointer.cpp.o
 
 Pointer.i: Pointer.cpp.i
@@ -218,7 +294,7 @@ Pointer.i: Pointer.cpp.i
 
 # target to preprocess a source file
 Pointer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Pointer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/Pointer.cpp.i
 .PHONY : Pointer.cpp.i
 
 Pointer.s: Pointer.cpp.s
@@ -226,8 +302,32 @@ Pointer.s: Pointer.cpp.s
 
 # target to generate assembly for a file
 Pointer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Pointer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/Pointer.cpp.s
 .PHONY : Pointer.cpp.s
+
+Pointer2.o: Pointer2.cpp.o
+.PHONY : Pointer2.o
+
+# target to build an object file
+Pointer2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/Pointer2.cpp.o
+.PHONY : Pointer2.cpp.o
+
+Pointer2.i: Pointer2.cpp.i
+.PHONY : Pointer2.i
+
+# target to preprocess a source file
+Pointer2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/Pointer2.cpp.i
+.PHONY : Pointer2.cpp.i
+
+Pointer2.s: Pointer2.cpp.s
+.PHONY : Pointer2.s
+
+# target to generate assembly for a file
+Pointer2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/Pointer2.cpp.s
+.PHONY : Pointer2.cpp.s
 
 Practical_Considerations_with_Cpp_Data_Types.o: Practical_Considerations_with_Cpp_Data_Types.cpp.o
 .PHONY : Practical_Considerations_with_Cpp_Data_Types.o
@@ -277,6 +377,54 @@ RLValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThree.dir/build.make CMakeFiles/ProjectThree.dir/RLValue.cpp.s
 .PHONY : RLValue.cpp.s
 
+Refrences.o: Refrences.cpp.o
+.PHONY : Refrences.o
+
+# target to build an object file
+Refrences.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/Refrences.cpp.o
+.PHONY : Refrences.cpp.o
+
+Refrences.i: Refrences.cpp.i
+.PHONY : Refrences.i
+
+# target to preprocess a source file
+Refrences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/Refrences.cpp.i
+.PHONY : Refrences.cpp.i
+
+Refrences.s: Refrences.cpp.s
+.PHONY : Refrences.s
+
+# target to generate assembly for a file
+Refrences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/Refrences.cpp.s
+.PHONY : Refrences.cpp.s
+
+Refrences2.o: Refrences2.cpp.o
+.PHONY : Refrences2.o
+
+# target to build an object file
+Refrences2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/Refrences2.cpp.o
+.PHONY : Refrences2.cpp.o
+
+Refrences2.i: Refrences2.cpp.i
+.PHONY : Refrences2.i
+
+# target to preprocess a source file
+Refrences2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/Refrences2.cpp.i
+.PHONY : Refrences2.cpp.i
+
+Refrences2.s: Refrences2.cpp.s
+.PHONY : Refrences2.s
+
+# target to generate assembly for a file
+Refrences2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/Refrences2.cpp.s
+.PHONY : Refrences2.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -309,23 +457,39 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ProjectEight"
+	@echo "... ProjectFive"
 	@echo "... ProjectFour"
 	@echo "... ProjectOne"
+	@echo "... ProjectSeven"
+	@echo "... ProjectSix"
 	@echo "... ProjectThree"
 	@echo "... ProjectTwo"
 	@echo "... main"
 	@echo "... Automatic_Type_Deduction.o"
 	@echo "... Automatic_Type_Deduction.i"
 	@echo "... Automatic_Type_Deduction.s"
+	@echo "... Decltype.o"
+	@echo "... Decltype.i"
+	@echo "... Decltype.s"
 	@echo "... Pointer.o"
 	@echo "... Pointer.i"
 	@echo "... Pointer.s"
+	@echo "... Pointer2.o"
+	@echo "... Pointer2.i"
+	@echo "... Pointer2.s"
 	@echo "... Practical_Considerations_with_Cpp_Data_Types.o"
 	@echo "... Practical_Considerations_with_Cpp_Data_Types.i"
 	@echo "... Practical_Considerations_with_Cpp_Data_Types.s"
 	@echo "... RLValue.o"
 	@echo "... RLValue.i"
 	@echo "... RLValue.s"
+	@echo "... Refrences.o"
+	@echo "... Refrences.i"
+	@echo "... Refrences.s"
+	@echo "... Refrences2.o"
+	@echo "... Refrences2.i"
+	@echo "... Refrences2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
