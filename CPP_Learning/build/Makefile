@@ -233,6 +233,45 @@ ProjectEight/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/build
 .PHONY : ProjectEight/fast
 
+#=============================================================================
+# Target rules for targets named ProjectNine
+
+# Build rule for target.
+ProjectNine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectNine
+.PHONY : ProjectNine
+
+# fast build rule for target.
+ProjectNine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/build
+.PHONY : ProjectNine/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTen
+
+# Build rule for target.
+ProjectTen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTen
+.PHONY : ProjectTen
+
+# fast build rule for target.
+ProjectTen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/build
+.PHONY : ProjectTen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectEleven
+
+# Build rule for target.
+ProjectEleven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectEleven
+.PHONY : ProjectEleven
+
+# fast build rule for target.
+ProjectEleven/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/build
+.PHONY : ProjectEleven/fast
+
 Automatic_Type_Deduction.o: Automatic_Type_Deduction.cpp.o
 .PHONY : Automatic_Type_Deduction.o
 
@@ -449,6 +488,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+user_types_enum.o: user_types_enum.cpp.o
+.PHONY : user_types_enum.o
+
+# target to build an object file
+user_types_enum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/user_types_enum.cpp.o
+.PHONY : user_types_enum.cpp.o
+
+user_types_enum.i: user_types_enum.cpp.i
+.PHONY : user_types_enum.i
+
+# target to preprocess a source file
+user_types_enum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/user_types_enum.cpp.i
+.PHONY : user_types_enum.cpp.i
+
+user_types_enum.s: user_types_enum.cpp.s
+.PHONY : user_types_enum.s
+
+# target to generate assembly for a file
+user_types_enum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/user_types_enum.cpp.s
+.PHONY : user_types_enum.cpp.s
+
+user_types_struct_array.o: user_types_struct_array.cpp.o
+.PHONY : user_types_struct_array.o
+
+# target to build an object file
+user_types_struct_array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/user_types_struct_array.cpp.o
+.PHONY : user_types_struct_array.cpp.o
+
+user_types_struct_array.i: user_types_struct_array.cpp.i
+.PHONY : user_types_struct_array.i
+
+# target to preprocess a source file
+user_types_struct_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/user_types_struct_array.cpp.i
+.PHONY : user_types_struct_array.cpp.i
+
+user_types_struct_array.s: user_types_struct_array.cpp.s
+.PHONY : user_types_struct_array.s
+
+# target to generate assembly for a file
+user_types_struct_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/user_types_struct_array.cpp.s
+.PHONY : user_types_struct_array.cpp.s
+
+user_types_unions.o: user_types_unions.cpp.o
+.PHONY : user_types_unions.o
+
+# target to build an object file
+user_types_unions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/user_types_unions.cpp.o
+.PHONY : user_types_unions.cpp.o
+
+user_types_unions.i: user_types_unions.cpp.i
+.PHONY : user_types_unions.i
+
+# target to preprocess a source file
+user_types_unions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/user_types_unions.cpp.i
+.PHONY : user_types_unions.cpp.i
+
+user_types_unions.s: user_types_unions.cpp.s
+.PHONY : user_types_unions.s
+
+# target to generate assembly for a file
+user_types_unions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/user_types_unions.cpp.s
+.PHONY : user_types_unions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,11 +569,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProjectEight"
+	@echo "... ProjectEleven"
 	@echo "... ProjectFive"
 	@echo "... ProjectFour"
+	@echo "... ProjectNine"
 	@echo "... ProjectOne"
 	@echo "... ProjectSeven"
 	@echo "... ProjectSix"
+	@echo "... ProjectTen"
 	@echo "... ProjectThree"
 	@echo "... ProjectTwo"
 	@echo "... main"
@@ -493,6 +607,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... user_types_enum.o"
+	@echo "... user_types_enum.i"
+	@echo "... user_types_enum.s"
+	@echo "... user_types_struct_array.o"
+	@echo "... user_types_struct_array.i"
+	@echo "... user_types_struct_array.s"
+	@echo "... user_types_unions.o"
+	@echo "... user_types_unions.i"
+	@echo "... user_types_unions.s"
 .PHONY : help
 
 

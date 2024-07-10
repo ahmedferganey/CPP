@@ -20,8 +20,9 @@ add_executable(ProjectSeven      Refrences.cpp)
 add_executable(ProjectEight    Refrences2.cpp)
 
 
-
-
+add_executable(ProjectNine      user_types_struct_array.cpp)
+add_executable(ProjectTen    user_types_unions.cpp)
+add_executable(ProjectEleven      user_types_enum.cpp)
 
 
 

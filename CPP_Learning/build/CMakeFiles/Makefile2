@@ -72,6 +72,9 @@ all: CMakeFiles/ProjectFive.dir/all
 all: CMakeFiles/ProjectSix.dir/all
 all: CMakeFiles/ProjectSeven.dir/all
 all: CMakeFiles/ProjectEight.dir/all
+all: CMakeFiles/ProjectNine.dir/all
+all: CMakeFiles/ProjectTen.dir/all
+all: CMakeFiles/ProjectEleven.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +91,9 @@ clean: CMakeFiles/ProjectFive.dir/clean
 clean: CMakeFiles/ProjectSix.dir/clean
 clean: CMakeFiles/ProjectSeven.dir/clean
 clean: CMakeFiles/ProjectEight.dir/clean
+clean: CMakeFiles/ProjectNine.dir/clean
+clean: CMakeFiles/ProjectTen.dir/clean
+clean: CMakeFiles/ProjectEleven.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -97,7 +103,7 @@ clean: CMakeFiles/ProjectEight.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=17,18 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=23,24 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -123,7 +129,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/ProjectOne.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectOne.dir/build.make CMakeFiles/ProjectOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=7,8 "Built target ProjectOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=11,12 "Built target ProjectOne"
 .PHONY : CMakeFiles/ProjectOne.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +155,7 @@ CMakeFiles/ProjectOne.dir/clean:
 CMakeFiles/ProjectTwo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwo.dir/build.make CMakeFiles/ProjectTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=15,16 "Built target ProjectTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=21,22 "Built target ProjectTwo"
 .PHONY : CMakeFiles/ProjectTwo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +181,7 @@ CMakeFiles/ProjectTwo.dir/clean:
 CMakeFiles/ProjectThree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThree.dir/build.make CMakeFiles/ProjectThree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThree.dir/build.make CMakeFiles/ProjectThree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=13,14 "Built target ProjectThree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=19,20 "Built target ProjectThree"
 .PHONY : CMakeFiles/ProjectThree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,7 +207,7 @@ CMakeFiles/ProjectThree.dir/clean:
 CMakeFiles/ProjectFour.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=5,6 "Built target ProjectFour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=7,8 "Built target ProjectFour"
 .PHONY : CMakeFiles/ProjectFour.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +233,7 @@ CMakeFiles/ProjectFour.dir/clean:
 CMakeFiles/ProjectFive.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFive.dir/build.make CMakeFiles/ProjectFive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=3,4 "Built target ProjectFive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=5,6 "Built target ProjectFive"
 .PHONY : CMakeFiles/ProjectFive.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +259,7 @@ CMakeFiles/ProjectFive.dir/clean:
 CMakeFiles/ProjectSix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSix.dir/build.make CMakeFiles/ProjectSix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=11,12 "Built target ProjectSix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=15,16 "Built target ProjectSix"
 .PHONY : CMakeFiles/ProjectSix.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,7 +285,7 @@ CMakeFiles/ProjectSix.dir/clean:
 CMakeFiles/ProjectSeven.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeven.dir/build.make CMakeFiles/ProjectSeven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=9,10 "Built target ProjectSeven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=13,14 "Built target ProjectSeven"
 .PHONY : CMakeFiles/ProjectSeven.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,6 +329,84 @@ ProjectEight: CMakeFiles/ProjectEight.dir/rule
 CMakeFiles/ProjectEight.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/clean
 .PHONY : CMakeFiles/ProjectEight.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectNine.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectNine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=9,10 "Built target ProjectNine"
+.PHONY : CMakeFiles/ProjectNine.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectNine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectNine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectNine.dir/rule
+
+# Convenience name for target.
+ProjectNine: CMakeFiles/ProjectNine.dir/rule
+.PHONY : ProjectNine
+
+# clean rule for target.
+CMakeFiles/ProjectNine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNine.dir/build.make CMakeFiles/ProjectNine.dir/clean
+.PHONY : CMakeFiles/ProjectNine.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectTen.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectTen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=17,18 "Built target ProjectTen"
+.PHONY : CMakeFiles/ProjectTen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectTen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectTen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectTen.dir/rule
+
+# Convenience name for target.
+ProjectTen: CMakeFiles/ProjectTen.dir/rule
+.PHONY : ProjectTen
+
+# clean rule for target.
+CMakeFiles/ProjectTen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTen.dir/build.make CMakeFiles/ProjectTen.dir/clean
+.PHONY : CMakeFiles/ProjectTen.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectEleven.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectEleven.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles --progress-num=3,4 "Built target ProjectEleven"
+.PHONY : CMakeFiles/ProjectEleven.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectEleven.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectEleven.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectEleven.dir/rule
+
+# Convenience name for target.
+ProjectEleven: CMakeFiles/ProjectEleven.dir/rule
+.PHONY : ProjectEleven
+
+# clean rule for target.
+CMakeFiles/ProjectEleven.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/clean
+.PHONY : CMakeFiles/ProjectEleven.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
