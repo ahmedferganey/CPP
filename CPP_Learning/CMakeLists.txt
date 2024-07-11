@@ -46,6 +46,16 @@ add_executable(ProjectSixteen               lambdafuncpointer.cpp)
 add_executable(ProjectSeventeen             lambda.cpp)
 
 
+add_executable(ProjectEighteen             constex_binding.cpp)
+add_executable(ProjectNineteen             expression.cpp)
+add_executable(ProjectTwenty               function_arg_variadic.cpp)
+add_executable(ProjectTwentyOne            overloaded.cpp)
+add_executable(ProjectTwentyTwo            catchup.cpp)
+add_executable(ProjectTwentyThree          exception.cpp)
+add_executable(ProjectTwentyFour           try_assertion.cpp)
+
+
+
 
 
 

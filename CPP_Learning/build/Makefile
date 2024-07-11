@@ -350,6 +350,97 @@ ProjectSeventeen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeventeen.dir/build.make CMakeFiles/ProjectSeventeen.dir/build
 .PHONY : ProjectSeventeen/fast
 
+#=============================================================================
+# Target rules for targets named ProjectEighteen
+
+# Build rule for target.
+ProjectEighteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectEighteen
+.PHONY : ProjectEighteen
+
+# fast build rule for target.
+ProjectEighteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEighteen.dir/build.make CMakeFiles/ProjectEighteen.dir/build
+.PHONY : ProjectEighteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectNineteen
+
+# Build rule for target.
+ProjectNineteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectNineteen
+.PHONY : ProjectNineteen
+
+# fast build rule for target.
+ProjectNineteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNineteen.dir/build.make CMakeFiles/ProjectNineteen.dir/build
+.PHONY : ProjectNineteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwenty
+
+# Build rule for target.
+ProjectTwenty: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwenty
+.PHONY : ProjectTwenty
+
+# fast build rule for target.
+ProjectTwenty/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwenty.dir/build.make CMakeFiles/ProjectTwenty.dir/build
+.PHONY : ProjectTwenty/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentyOne
+
+# Build rule for target.
+ProjectTwentyOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyOne
+.PHONY : ProjectTwentyOne
+
+# fast build rule for target.
+ProjectTwentyOne/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyOne.dir/build.make CMakeFiles/ProjectTwentyOne.dir/build
+.PHONY : ProjectTwentyOne/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentyTwo
+
+# Build rule for target.
+ProjectTwentyTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyTwo
+.PHONY : ProjectTwentyTwo
+
+# fast build rule for target.
+ProjectTwentyTwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/build
+.PHONY : ProjectTwentyTwo/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentyThree
+
+# Build rule for target.
+ProjectTwentyThree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyThree
+.PHONY : ProjectTwentyThree
+
+# fast build rule for target.
+ProjectTwentyThree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/build
+.PHONY : ProjectTwentyThree/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentyFour
+
+# Build rule for target.
+ProjectTwentyFour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyFour
+.PHONY : ProjectTwentyFour
+
+# fast build rule for target.
+ProjectTwentyFour/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/build
+.PHONY : ProjectTwentyFour/fast
+
 Automatic_Type_Deduction.o: Automatic_Type_Deduction.cpp.o
 .PHONY : Automatic_Type_Deduction.o
 
@@ -638,6 +729,126 @@ Refrences2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/Refrences2.cpp.s
 .PHONY : Refrences2.cpp.s
 
+catchup.o: catchup.cpp.o
+.PHONY : catchup.o
+
+# target to build an object file
+catchup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/catchup.cpp.o
+.PHONY : catchup.cpp.o
+
+catchup.i: catchup.cpp.i
+.PHONY : catchup.i
+
+# target to preprocess a source file
+catchup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/catchup.cpp.i
+.PHONY : catchup.cpp.i
+
+catchup.s: catchup.cpp.s
+.PHONY : catchup.s
+
+# target to generate assembly for a file
+catchup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/catchup.cpp.s
+.PHONY : catchup.cpp.s
+
+constex_binding.o: constex_binding.cpp.o
+.PHONY : constex_binding.o
+
+# target to build an object file
+constex_binding.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEighteen.dir/build.make CMakeFiles/ProjectEighteen.dir/constex_binding.cpp.o
+.PHONY : constex_binding.cpp.o
+
+constex_binding.i: constex_binding.cpp.i
+.PHONY : constex_binding.i
+
+# target to preprocess a source file
+constex_binding.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEighteen.dir/build.make CMakeFiles/ProjectEighteen.dir/constex_binding.cpp.i
+.PHONY : constex_binding.cpp.i
+
+constex_binding.s: constex_binding.cpp.s
+.PHONY : constex_binding.s
+
+# target to generate assembly for a file
+constex_binding.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEighteen.dir/build.make CMakeFiles/ProjectEighteen.dir/constex_binding.cpp.s
+.PHONY : constex_binding.cpp.s
+
+exception.o: exception.cpp.o
+.PHONY : exception.o
+
+# target to build an object file
+exception.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o
+.PHONY : exception.cpp.o
+
+exception.i: exception.cpp.i
+.PHONY : exception.i
+
+# target to preprocess a source file
+exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/exception.cpp.i
+.PHONY : exception.cpp.i
+
+exception.s: exception.cpp.s
+.PHONY : exception.s
+
+# target to generate assembly for a file
+exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/exception.cpp.s
+.PHONY : exception.cpp.s
+
+expression.o: expression.cpp.o
+.PHONY : expression.o
+
+# target to build an object file
+expression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNineteen.dir/build.make CMakeFiles/ProjectNineteen.dir/expression.cpp.o
+.PHONY : expression.cpp.o
+
+expression.i: expression.cpp.i
+.PHONY : expression.i
+
+# target to preprocess a source file
+expression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNineteen.dir/build.make CMakeFiles/ProjectNineteen.dir/expression.cpp.i
+.PHONY : expression.cpp.i
+
+expression.s: expression.cpp.s
+.PHONY : expression.s
+
+# target to generate assembly for a file
+expression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectNineteen.dir/build.make CMakeFiles/ProjectNineteen.dir/expression.cpp.s
+.PHONY : expression.cpp.s
+
+function_arg_variadic.o: function_arg_variadic.cpp.o
+.PHONY : function_arg_variadic.o
+
+# target to build an object file
+function_arg_variadic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwenty.dir/build.make CMakeFiles/ProjectTwenty.dir/function_arg_variadic.cpp.o
+.PHONY : function_arg_variadic.cpp.o
+
+function_arg_variadic.i: function_arg_variadic.cpp.i
+.PHONY : function_arg_variadic.i
+
+# target to preprocess a source file
+function_arg_variadic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwenty.dir/build.make CMakeFiles/ProjectTwenty.dir/function_arg_variadic.cpp.i
+.PHONY : function_arg_variadic.cpp.i
+
+function_arg_variadic.s: function_arg_variadic.cpp.s
+.PHONY : function_arg_variadic.s
+
+# target to generate assembly for a file
+function_arg_variadic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwenty.dir/build.make CMakeFiles/ProjectTwenty.dir/function_arg_variadic.cpp.s
+.PHONY : function_arg_variadic.cpp.s
+
 lambda.o: lambda.cpp.o
 .PHONY : lambda.o
 
@@ -709,6 +920,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+overloaded.o: overloaded.cpp.o
+.PHONY : overloaded.o
+
+# target to build an object file
+overloaded.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyOne.dir/build.make CMakeFiles/ProjectTwentyOne.dir/overloaded.cpp.o
+.PHONY : overloaded.cpp.o
+
+overloaded.i: overloaded.cpp.i
+.PHONY : overloaded.i
+
+# target to preprocess a source file
+overloaded.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyOne.dir/build.make CMakeFiles/ProjectTwentyOne.dir/overloaded.cpp.i
+.PHONY : overloaded.cpp.i
+
+overloaded.s: overloaded.cpp.s
+.PHONY : overloaded.s
+
+# target to generate assembly for a file
+overloaded.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyOne.dir/build.make CMakeFiles/ProjectTwentyOne.dir/overloaded.cpp.s
+.PHONY : overloaded.cpp.s
+
+try_assertion.o: try_assertion.cpp.o
+.PHONY : try_assertion.o
+
+# target to build an object file
+try_assertion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o
+.PHONY : try_assertion.cpp.o
+
+try_assertion.i: try_assertion.cpp.i
+.PHONY : try_assertion.i
+
+# target to preprocess a source file
+try_assertion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.i
+.PHONY : try_assertion.cpp.i
+
+try_assertion.s: try_assertion.cpp.s
+.PHONY : try_assertion.s
+
+# target to generate assembly for a file
+try_assertion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s
+.PHONY : try_assertion.cpp.s
 
 user_types_enum.o: user_types_enum.cpp.o
 .PHONY : user_types_enum.o
@@ -791,12 +1050,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProjectEight"
+	@echo "... ProjectEighteen"
 	@echo "... ProjectEleven"
 	@echo "... ProjectFive"
 	@echo "... ProjectFiveteen"
 	@echo "... ProjectFour"
 	@echo "... ProjectFourteen"
 	@echo "... ProjectNine"
+	@echo "... ProjectNineteen"
 	@echo "... ProjectOne"
 	@echo "... ProjectSeven"
 	@echo "... ProjectSeventeen"
@@ -806,6 +1067,11 @@ help:
 	@echo "... ProjectThirteen"
 	@echo "... ProjectThree"
 	@echo "... ProjectTwelve"
+	@echo "... ProjectTwenty"
+	@echo "... ProjectTwentyFour"
+	@echo "... ProjectTwentyOne"
+	@echo "... ProjectTwentyThree"
+	@echo "... ProjectTwentyTwo"
 	@echo "... ProjectTwo"
 	@echo "... main"
 	@echo "... Automatic_Type_Deduction.o"
@@ -844,6 +1110,21 @@ help:
 	@echo "... Refrences2.o"
 	@echo "... Refrences2.i"
 	@echo "... Refrences2.s"
+	@echo "... catchup.o"
+	@echo "... catchup.i"
+	@echo "... catchup.s"
+	@echo "... constex_binding.o"
+	@echo "... constex_binding.i"
+	@echo "... constex_binding.s"
+	@echo "... exception.o"
+	@echo "... exception.i"
+	@echo "... exception.s"
+	@echo "... expression.o"
+	@echo "... expression.i"
+	@echo "... expression.s"
+	@echo "... function_arg_variadic.o"
+	@echo "... function_arg_variadic.i"
+	@echo "... function_arg_variadic.s"
 	@echo "... lambda.o"
 	@echo "... lambda.i"
 	@echo "... lambda.s"
@@ -853,6 +1134,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... overloaded.o"
+	@echo "... overloaded.i"
+	@echo "... overloaded.s"
+	@echo "... try_assertion.o"
+	@echo "... try_assertion.i"
+	@echo "... try_assertion.s"
 	@echo "... user_types_enum.o"
 	@echo "... user_types_enum.i"
 	@echo "... user_types_enum.s"
