@@ -272,6 +272,84 @@ ProjectEleven/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEleven.dir/build.make CMakeFiles/ProjectEleven.dir/build
 .PHONY : ProjectEleven/fast
 
+#=============================================================================
+# Target rules for targets named ProjectTwelve
+
+# Build rule for target.
+ProjectTwelve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwelve
+.PHONY : ProjectTwelve
+
+# fast build rule for target.
+ProjectTwelve/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwelve.dir/build.make CMakeFiles/ProjectTwelve.dir/build
+.PHONY : ProjectTwelve/fast
+
+#=============================================================================
+# Target rules for targets named ProjectThirteen
+
+# Build rule for target.
+ProjectThirteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectThirteen
+.PHONY : ProjectThirteen
+
+# fast build rule for target.
+ProjectThirteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThirteen.dir/build.make CMakeFiles/ProjectThirteen.dir/build
+.PHONY : ProjectThirteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectFourteen
+
+# Build rule for target.
+ProjectFourteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectFourteen
+.PHONY : ProjectFourteen
+
+# fast build rule for target.
+ProjectFourteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFourteen.dir/build.make CMakeFiles/ProjectFourteen.dir/build
+.PHONY : ProjectFourteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectFiveteen
+
+# Build rule for target.
+ProjectFiveteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectFiveteen
+.PHONY : ProjectFiveteen
+
+# fast build rule for target.
+ProjectFiveteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFiveteen.dir/build.make CMakeFiles/ProjectFiveteen.dir/build
+.PHONY : ProjectFiveteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectSixteen
+
+# Build rule for target.
+ProjectSixteen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectSixteen
+.PHONY : ProjectSixteen
+
+# fast build rule for target.
+ProjectSixteen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSixteen.dir/build.make CMakeFiles/ProjectSixteen.dir/build
+.PHONY : ProjectSixteen/fast
+
+#=============================================================================
+# Target rules for targets named ProjectSeventeen
+
+# Build rule for target.
+ProjectSeventeen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectSeventeen
+.PHONY : ProjectSeventeen
+
+# fast build rule for target.
+ProjectSeventeen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeventeen.dir/build.make CMakeFiles/ProjectSeventeen.dir/build
+.PHONY : ProjectSeventeen/fast
+
 Automatic_Type_Deduction.o: Automatic_Type_Deduction.cpp.o
 .PHONY : Automatic_Type_Deduction.o
 
@@ -319,6 +397,78 @@ Decltype.s: Decltype.cpp.s
 Decltype.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFour.dir/build.make CMakeFiles/ProjectFour.dir/Decltype.cpp.s
 .PHONY : Decltype.cpp.s
+
+DeskCalc.o: DeskCalc.cpp.o
+.PHONY : DeskCalc.o
+
+# target to build an object file
+DeskCalc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFiveteen.dir/build.make CMakeFiles/ProjectFiveteen.dir/DeskCalc.cpp.o
+.PHONY : DeskCalc.cpp.o
+
+DeskCalc.i: DeskCalc.cpp.i
+.PHONY : DeskCalc.i
+
+# target to preprocess a source file
+DeskCalc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFiveteen.dir/build.make CMakeFiles/ProjectFiveteen.dir/DeskCalc.cpp.i
+.PHONY : DeskCalc.cpp.i
+
+DeskCalc.s: DeskCalc.cpp.s
+.PHONY : DeskCalc.s
+
+# target to generate assembly for a file
+DeskCalc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFiveteen.dir/build.make CMakeFiles/ProjectFiveteen.dir/DeskCalc.cpp.s
+.PHONY : DeskCalc.cpp.s
+
+ManagerObject.o: ManagerObject.cpp.o
+.PHONY : ManagerObject.o
+
+# target to build an object file
+ManagerObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFourteen.dir/build.make CMakeFiles/ProjectFourteen.dir/ManagerObject.cpp.o
+.PHONY : ManagerObject.cpp.o
+
+ManagerObject.i: ManagerObject.cpp.i
+.PHONY : ManagerObject.i
+
+# target to preprocess a source file
+ManagerObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFourteen.dir/build.make CMakeFiles/ProjectFourteen.dir/ManagerObject.cpp.i
+.PHONY : ManagerObject.cpp.i
+
+ManagerObject.s: ManagerObject.cpp.s
+.PHONY : ManagerObject.s
+
+# target to generate assembly for a file
+ManagerObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectFourteen.dir/build.make CMakeFiles/ProjectFourteen.dir/ManagerObject.cpp.s
+.PHONY : ManagerObject.cpp.s
+
+NewDelete.o: NewDelete.cpp.o
+.PHONY : NewDelete.o
+
+# target to build an object file
+NewDelete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThirteen.dir/build.make CMakeFiles/ProjectThirteen.dir/NewDelete.cpp.o
+.PHONY : NewDelete.cpp.o
+
+NewDelete.i: NewDelete.cpp.i
+.PHONY : NewDelete.i
+
+# target to preprocess a source file
+NewDelete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThirteen.dir/build.make CMakeFiles/ProjectThirteen.dir/NewDelete.cpp.i
+.PHONY : NewDelete.cpp.i
+
+NewDelete.s: NewDelete.cpp.s
+.PHONY : NewDelete.s
+
+# target to generate assembly for a file
+NewDelete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThirteen.dir/build.make CMakeFiles/ProjectThirteen.dir/NewDelete.cpp.s
+.PHONY : NewDelete.cpp.s
 
 Pointer.o: Pointer.cpp.o
 .PHONY : Pointer.o
@@ -416,6 +566,30 @@ RLValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectThree.dir/build.make CMakeFiles/ProjectThree.dir/RLValue.cpp.s
 .PHONY : RLValue.cpp.s
 
+RangeFor.o: RangeFor.cpp.o
+.PHONY : RangeFor.o
+
+# target to build an object file
+RangeFor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwelve.dir/build.make CMakeFiles/ProjectTwelve.dir/RangeFor.cpp.o
+.PHONY : RangeFor.cpp.o
+
+RangeFor.i: RangeFor.cpp.i
+.PHONY : RangeFor.i
+
+# target to preprocess a source file
+RangeFor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwelve.dir/build.make CMakeFiles/ProjectTwelve.dir/RangeFor.cpp.i
+.PHONY : RangeFor.cpp.i
+
+RangeFor.s: RangeFor.cpp.s
+.PHONY : RangeFor.s
+
+# target to generate assembly for a file
+RangeFor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwelve.dir/build.make CMakeFiles/ProjectTwelve.dir/RangeFor.cpp.s
+.PHONY : RangeFor.cpp.s
+
 Refrences.o: Refrences.cpp.o
 .PHONY : Refrences.o
 
@@ -463,6 +637,54 @@ Refrences2.s: Refrences2.cpp.s
 Refrences2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectEight.dir/build.make CMakeFiles/ProjectEight.dir/Refrences2.cpp.s
 .PHONY : Refrences2.cpp.s
+
+lambda.o: lambda.cpp.o
+.PHONY : lambda.o
+
+# target to build an object file
+lambda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeventeen.dir/build.make CMakeFiles/ProjectSeventeen.dir/lambda.cpp.o
+.PHONY : lambda.cpp.o
+
+lambda.i: lambda.cpp.i
+.PHONY : lambda.i
+
+# target to preprocess a source file
+lambda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeventeen.dir/build.make CMakeFiles/ProjectSeventeen.dir/lambda.cpp.i
+.PHONY : lambda.cpp.i
+
+lambda.s: lambda.cpp.s
+.PHONY : lambda.s
+
+# target to generate assembly for a file
+lambda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSeventeen.dir/build.make CMakeFiles/ProjectSeventeen.dir/lambda.cpp.s
+.PHONY : lambda.cpp.s
+
+lambdafuncpointer.o: lambdafuncpointer.cpp.o
+.PHONY : lambdafuncpointer.o
+
+# target to build an object file
+lambdafuncpointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSixteen.dir/build.make CMakeFiles/ProjectSixteen.dir/lambdafuncpointer.cpp.o
+.PHONY : lambdafuncpointer.cpp.o
+
+lambdafuncpointer.i: lambdafuncpointer.cpp.i
+.PHONY : lambdafuncpointer.i
+
+# target to preprocess a source file
+lambdafuncpointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSixteen.dir/build.make CMakeFiles/ProjectSixteen.dir/lambdafuncpointer.cpp.i
+.PHONY : lambdafuncpointer.cpp.i
+
+lambdafuncpointer.s: lambdafuncpointer.cpp.s
+.PHONY : lambdafuncpointer.s
+
+# target to generate assembly for a file
+lambdafuncpointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectSixteen.dir/build.make CMakeFiles/ProjectSixteen.dir/lambdafuncpointer.cpp.s
+.PHONY : lambdafuncpointer.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -571,13 +793,19 @@ help:
 	@echo "... ProjectEight"
 	@echo "... ProjectEleven"
 	@echo "... ProjectFive"
+	@echo "... ProjectFiveteen"
 	@echo "... ProjectFour"
+	@echo "... ProjectFourteen"
 	@echo "... ProjectNine"
 	@echo "... ProjectOne"
 	@echo "... ProjectSeven"
+	@echo "... ProjectSeventeen"
 	@echo "... ProjectSix"
+	@echo "... ProjectSixteen"
 	@echo "... ProjectTen"
+	@echo "... ProjectThirteen"
 	@echo "... ProjectThree"
+	@echo "... ProjectTwelve"
 	@echo "... ProjectTwo"
 	@echo "... main"
 	@echo "... Automatic_Type_Deduction.o"
@@ -586,6 +814,15 @@ help:
 	@echo "... Decltype.o"
 	@echo "... Decltype.i"
 	@echo "... Decltype.s"
+	@echo "... DeskCalc.o"
+	@echo "... DeskCalc.i"
+	@echo "... DeskCalc.s"
+	@echo "... ManagerObject.o"
+	@echo "... ManagerObject.i"
+	@echo "... ManagerObject.s"
+	@echo "... NewDelete.o"
+	@echo "... NewDelete.i"
+	@echo "... NewDelete.s"
 	@echo "... Pointer.o"
 	@echo "... Pointer.i"
 	@echo "... Pointer.s"
@@ -598,12 +835,21 @@ help:
 	@echo "... RLValue.o"
 	@echo "... RLValue.i"
 	@echo "... RLValue.s"
+	@echo "... RangeFor.o"
+	@echo "... RangeFor.i"
+	@echo "... RangeFor.s"
 	@echo "... Refrences.o"
 	@echo "... Refrences.i"
 	@echo "... Refrences.s"
 	@echo "... Refrences2.o"
 	@echo "... Refrences2.i"
 	@echo "... Refrences2.s"
+	@echo "... lambda.o"
+	@echo "... lambda.i"
+	@echo "... lambda.s"
+	@echo "... lambdafuncpointer.o"
+	@echo "... lambdafuncpointer.i"
+	@echo "... lambdafuncpointer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

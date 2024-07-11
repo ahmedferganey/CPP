@@ -25,6 +25,12 @@ add_executable(ProjectTen           user_types_unions.cpp)
 add_executable(ProjectEleven        user_types_enum.cpp)
 
 
+add_executable(ProjectTwelve                RangeFor.cpp)
+add_executable(ProjectThirteen              NewDelete.cpp)
+add_executable(ProjectFourteen              ManagerObject.cpp)
+add_executable(ProjectFiveteen              DeskCalc.cpp)
+add_executable(ProjectSixteen               lambdafuncpointer.cpp)
+add_executable(ProjectSeventeen             lambda.cpp)
 
 
 
