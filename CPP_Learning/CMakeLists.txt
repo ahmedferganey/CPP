@@ -2,9 +2,22 @@
 cmake_minimum_required(VERSION 3.10)
 
 project(cpp_course)
+set(CMAKE_CXX_STANDARD 11) # Example: Set C++ standard
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_STANDARD 11)  # Example: Set C++ standard
 
+add_definitions(-std=c++11)
+set(CXX_FLAGS "-Wall")
+set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
+
+include_directories(${CMAKE_SOURCE_DIR})
+
+## # Create target for each .cc file
+#     FILE(GLOB sources *.cc)
+#     foreach(source ${sources})
+#       get_filename_component(target ${source} NAME_WE)
+#       add_executable(${target} ${target}.cc)
+#     endforeach()
 
 add_executable(main main.cpp)
 add_executable(ProjectOne           Practical_Considerations_with_Cpp_Data_Types.cpp )
