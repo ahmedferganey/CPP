@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_20_course",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentyEight::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentyEight-Debug-faaaeea8c962e4743025.json",
+					"name" : "ProjectTwentyEight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentyFive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentyFive-Debug-9369a8d489b7a451168b.json",
+					"name" : "ProjectTwentyFive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentyFour::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentyFour-Debug-577f0751f518adac9e9b.json",
+					"name" : "ProjectTwentyFour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentySeven::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentySeven-Debug-0f668bc14c091350444f.json",
+					"name" : "ProjectTwentySeven",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentySex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentySex-Debug-17ac43de2e09b2560686.json",
+					"name" : "ProjectTwentySex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentyThree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentyThree-Debug-e374e4b58489e99d7379.json",
+					"name" : "ProjectTwentyThree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProjectTwentyTwo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProjectTwentyTwo-Debug-ce2dbec5093d46fff431.json",
+					"name" : "ProjectTwentyTwo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+		"source" : "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

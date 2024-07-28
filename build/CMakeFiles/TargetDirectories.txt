@@ -1,0 +1,9 @@
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentyTwo.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentyThree.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentyFour.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentyFive.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentySex.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentySeven.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/ProjectTwentyEight.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/edit_cache.dir
+/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build/CMakeFiles/rebuild_cache.dir

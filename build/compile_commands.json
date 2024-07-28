@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentyTwo.dir/catchup.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/catchup.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/catchup.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentyFive.dir/vector.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vector.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vector.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentySex.dir/vectorp2.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp2.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp2.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentySeven.dir/vectorp3.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp3.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp3.cpp"
+},
+{
+  "directory": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/build",
+  "command": "/bin/g++ -I/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 -g   -std=c++20 -std=gnu++20 -o CMakeFiles/ProjectTwentyEight.dir/vectorp4.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp4.cpp",
+  "file": "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/vectorp4.cpp"
+}
+]

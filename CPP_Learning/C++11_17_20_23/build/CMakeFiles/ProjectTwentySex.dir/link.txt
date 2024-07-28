@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ProjectTwentySex.dir/vectorp2.cpp.o -o ProjectTwentySex 

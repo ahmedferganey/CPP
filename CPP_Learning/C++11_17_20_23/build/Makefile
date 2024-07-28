@@ -155,6 +155,58 @@ ProjectTwentyFour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/build
 .PHONY : ProjectTwentyFour/fast
 
+#=============================================================================
+# Target rules for targets named ProjectTwentyFive
+
+# Build rule for target.
+ProjectTwentyFive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyFive
+.PHONY : ProjectTwentyFive
+
+# fast build rule for target.
+ProjectTwentyFive/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFive.dir/build.make CMakeFiles/ProjectTwentyFive.dir/build
+.PHONY : ProjectTwentyFive/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentySex
+
+# Build rule for target.
+ProjectTwentySex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentySex
+.PHONY : ProjectTwentySex
+
+# fast build rule for target.
+ProjectTwentySex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySex.dir/build.make CMakeFiles/ProjectTwentySex.dir/build
+.PHONY : ProjectTwentySex/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentySeven
+
+# Build rule for target.
+ProjectTwentySeven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentySeven
+.PHONY : ProjectTwentySeven
+
+# fast build rule for target.
+ProjectTwentySeven/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySeven.dir/build.make CMakeFiles/ProjectTwentySeven.dir/build
+.PHONY : ProjectTwentySeven/fast
+
+#=============================================================================
+# Target rules for targets named ProjectTwentyEight
+
+# Build rule for target.
+ProjectTwentyEight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProjectTwentyEight
+.PHONY : ProjectTwentyEight
+
+# fast build rule for target.
+ProjectTwentyEight/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyEight.dir/build.make CMakeFiles/ProjectTwentyEight.dir/build
+.PHONY : ProjectTwentyEight/fast
+
 catchup.o: catchup.cpp.o
 .PHONY : catchup.o
 
@@ -227,6 +279,102 @@ try_assertion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s
 .PHONY : try_assertion.cpp.s
 
+vector.o: vector.cpp.o
+.PHONY : vector.o
+
+# target to build an object file
+vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFive.dir/build.make CMakeFiles/ProjectTwentyFive.dir/vector.cpp.o
+.PHONY : vector.cpp.o
+
+vector.i: vector.cpp.i
+.PHONY : vector.i
+
+# target to preprocess a source file
+vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFive.dir/build.make CMakeFiles/ProjectTwentyFive.dir/vector.cpp.i
+.PHONY : vector.cpp.i
+
+vector.s: vector.cpp.s
+.PHONY : vector.s
+
+# target to generate assembly for a file
+vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFive.dir/build.make CMakeFiles/ProjectTwentyFive.dir/vector.cpp.s
+.PHONY : vector.cpp.s
+
+vectorp2.o: vectorp2.cpp.o
+.PHONY : vectorp2.o
+
+# target to build an object file
+vectorp2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySex.dir/build.make CMakeFiles/ProjectTwentySex.dir/vectorp2.cpp.o
+.PHONY : vectorp2.cpp.o
+
+vectorp2.i: vectorp2.cpp.i
+.PHONY : vectorp2.i
+
+# target to preprocess a source file
+vectorp2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySex.dir/build.make CMakeFiles/ProjectTwentySex.dir/vectorp2.cpp.i
+.PHONY : vectorp2.cpp.i
+
+vectorp2.s: vectorp2.cpp.s
+.PHONY : vectorp2.s
+
+# target to generate assembly for a file
+vectorp2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySex.dir/build.make CMakeFiles/ProjectTwentySex.dir/vectorp2.cpp.s
+.PHONY : vectorp2.cpp.s
+
+vectorp3.o: vectorp3.cpp.o
+.PHONY : vectorp3.o
+
+# target to build an object file
+vectorp3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySeven.dir/build.make CMakeFiles/ProjectTwentySeven.dir/vectorp3.cpp.o
+.PHONY : vectorp3.cpp.o
+
+vectorp3.i: vectorp3.cpp.i
+.PHONY : vectorp3.i
+
+# target to preprocess a source file
+vectorp3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySeven.dir/build.make CMakeFiles/ProjectTwentySeven.dir/vectorp3.cpp.i
+.PHONY : vectorp3.cpp.i
+
+vectorp3.s: vectorp3.cpp.s
+.PHONY : vectorp3.s
+
+# target to generate assembly for a file
+vectorp3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentySeven.dir/build.make CMakeFiles/ProjectTwentySeven.dir/vectorp3.cpp.s
+.PHONY : vectorp3.cpp.s
+
+vectorp4.o: vectorp4.cpp.o
+.PHONY : vectorp4.o
+
+# target to build an object file
+vectorp4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyEight.dir/build.make CMakeFiles/ProjectTwentyEight.dir/vectorp4.cpp.o
+.PHONY : vectorp4.cpp.o
+
+vectorp4.i: vectorp4.cpp.i
+.PHONY : vectorp4.i
+
+# target to preprocess a source file
+vectorp4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyEight.dir/build.make CMakeFiles/ProjectTwentyEight.dir/vectorp4.cpp.i
+.PHONY : vectorp4.cpp.i
+
+vectorp4.s: vectorp4.cpp.s
+.PHONY : vectorp4.s
+
+# target to generate assembly for a file
+vectorp4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyEight.dir/build.make CMakeFiles/ProjectTwentyEight.dir/vectorp4.cpp.s
+.PHONY : vectorp4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,7 +383,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ProjectTwentyEight"
+	@echo "... ProjectTwentyFive"
 	@echo "... ProjectTwentyFour"
+	@echo "... ProjectTwentySeven"
+	@echo "... ProjectTwentySex"
 	@echo "... ProjectTwentyThree"
 	@echo "... ProjectTwentyTwo"
 	@echo "... catchup.o"
@@ -247,6 +399,18 @@ help:
 	@echo "... try_assertion.o"
 	@echo "... try_assertion.i"
 	@echo "... try_assertion.s"
+	@echo "... vector.o"
+	@echo "... vector.i"
+	@echo "... vector.s"
+	@echo "... vectorp2.o"
+	@echo "... vectorp2.i"
+	@echo "... vectorp2.s"
+	@echo "... vectorp3.o"
+	@echo "... vectorp3.i"
+	@echo "... vectorp3.s"
+	@echo "... vectorp4.o"
+	@echo "... vectorp4.i"
+	@echo "... vectorp4.s"
 .PHONY : help
 
 

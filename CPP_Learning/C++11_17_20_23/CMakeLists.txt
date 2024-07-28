@@ -24,6 +24,21 @@ add_executable(ProjectTwentyThree          exception.cpp)
 add_executable(ProjectTwentyFour           try_assertion.cpp)
 
 
+add_executable(ProjectTwentyFive           vector.cpp)
+add_executable(ProjectTwentySex            vectorp2.cpp)
+add_executable(ProjectTwentySeven          vectorp3.cpp)
+add_executable(ProjectTwentyEight          vectorp4.cpp)
+
+
+#add_executable(ProjectTwentySex             namespaces.cpp)
+#add_executable(ProjectTwentySeven           try_assertion.cpp)
+#add_executable(ProjectTwentyEight           try_assertion.cpp)
+#add_executable(ProjectTwentyNine            try_assertion.cpp)
+#add_executable(ProjectThirty                try_assertion.cpp)
+#add_executable(ProjectThirtyOne             try_assertion.cpp)
+#add_executable(ProjectThirtyTwo             try_assertion.cpp)
+#add_executable(ProjectThirtyThree           try_assertion.cpp)
+#add_executable(ProjectThirtyFour            try_assertion.cpp)
 
 
 

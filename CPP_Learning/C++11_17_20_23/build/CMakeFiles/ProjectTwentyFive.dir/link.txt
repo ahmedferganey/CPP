@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ProjectTwentyFive.dir/vector.cpp.o -o ProjectTwentyFive 
