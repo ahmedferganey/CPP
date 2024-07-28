@@ -1,4 +1,4 @@
-# Install script for directory: /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
+# Install script for directory: /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

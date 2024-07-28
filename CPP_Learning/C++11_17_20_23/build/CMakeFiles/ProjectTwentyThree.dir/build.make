@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
+CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
+CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectTwentyThree.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/ProjectTwentyThree.dir/flags.make
 CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o: CMakeFiles/ProjectTwentyThree.dir/flags.make
 CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o: ../exception.cpp
 CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o: CMakeFiles/ProjectTwentyThree.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o -MF CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o.d -o CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o -MF CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o.d -o CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp
 
 CMakeFiles/ProjectTwentyThree.dir/exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTwentyThree.dir/exception.cpp.i"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp > CMakeFiles/ProjectTwentyThree.dir/exception.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp > CMakeFiles/ProjectTwentyThree.dir/exception.cpp.i
 
 CMakeFiles/ProjectTwentyThree.dir/exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTwentyThree.dir/exception.cpp.s"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp -o CMakeFiles/ProjectTwentyThree.dir/exception.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/exception.cpp -o CMakeFiles/ProjectTwentyThree.dir/exception.cpp.s
 
 # Object files for target ProjectTwentyThree
 ProjectTwentyThree_OBJECTS = \
@@ -93,7 +93,7 @@ ProjectTwentyThree_EXTERNAL_OBJECTS =
 ProjectTwentyThree: CMakeFiles/ProjectTwentyThree.dir/exception.cpp.o
 ProjectTwentyThree: CMakeFiles/ProjectTwentyThree.dir/build.make
 ProjectTwentyThree: CMakeFiles/ProjectTwentyThree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectTwentyThree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectTwentyThree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjectTwentyThree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/ProjectTwentyThree.dir/clean:
 .PHONY : CMakeFiles/ProjectTwentyThree.dir/clean
 
 CMakeFiles/ProjectTwentyThree.dir/depend:
-	cd /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles/ProjectTwentyThree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles/ProjectTwentyThree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectTwentyThree.dir/depend
 

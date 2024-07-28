@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
+CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
+CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectTwentyFour.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/ProjectTwentyFour.dir/flags.make
 CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o: CMakeFiles/ProjectTwentyFour.dir/flags.make
 CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o: ../try_assertion.cpp
 CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o: CMakeFiles/ProjectTwentyFour.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o -MF CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o.d -o CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o -MF CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o.d -o CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o -c /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp
 
 CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.i"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp > CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp > CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.i
 
 CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s"
-	/home/ahmed-ferganey/anaconda3_new/envs/ml_cv_env/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp -o CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp -o CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.s
 
 # Object files for target ProjectTwentyFour
 ProjectTwentyFour_OBJECTS = \
@@ -93,7 +93,7 @@ ProjectTwentyFour_EXTERNAL_OBJECTS =
 ProjectTwentyFour: CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o
 ProjectTwentyFour: CMakeFiles/ProjectTwentyFour.dir/build.make
 ProjectTwentyFour: CMakeFiles/ProjectTwentyFour.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectTwentyFour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectTwentyFour"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjectTwentyFour.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/ProjectTwentyFour.dir/clean:
 .PHONY : CMakeFiles/ProjectTwentyFour.dir/clean
 
 CMakeFiles/ProjectTwentyFour.dir/depend:
-	cd /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles/ProjectTwentyFour.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23 /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles/ProjectTwentyFour.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectTwentyFour.dir/depend
 

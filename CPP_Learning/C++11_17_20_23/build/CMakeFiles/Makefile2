@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
+CMAKE_SOURCE_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
+CMAKE_BINARY_DIR = /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/ProjectTwentyFour.dir/clean
 CMakeFiles/ProjectTwentyTwo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyTwo.dir/build.make CMakeFiles/ProjectTwentyTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=5,6 "Built target ProjectTwentyTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=5,6 "Built target ProjectTwentyTwo"
 .PHONY : CMakeFiles/ProjectTwentyTwo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProjectTwentyTwo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectTwentyTwo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
 .PHONY : CMakeFiles/ProjectTwentyTwo.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/ProjectTwentyTwo.dir/clean:
 CMakeFiles/ProjectTwentyThree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyThree.dir/build.make CMakeFiles/ProjectTwentyThree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=3,4 "Built target ProjectTwentyThree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=3,4 "Built target ProjectTwentyThree"
 .PHONY : CMakeFiles/ProjectTwentyThree.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProjectTwentyThree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectTwentyThree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
 .PHONY : CMakeFiles/ProjectTwentyThree.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/ProjectTwentyThree.dir/clean:
 CMakeFiles/ProjectTwentyFour.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjectTwentyFour.dir/build.make CMakeFiles/ProjectTwentyFour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=1,2 "Built target ProjectTwentyFour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles --progress-num=1,2 "Built target ProjectTwentyFour"
 .PHONY : CMakeFiles/ProjectTwentyFour.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProjectTwentyFour.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjectTwentyFour.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/build/CMakeFiles 0
 .PHONY : CMakeFiles/ProjectTwentyFour.dir/rule
 
 # Convenience name for target.

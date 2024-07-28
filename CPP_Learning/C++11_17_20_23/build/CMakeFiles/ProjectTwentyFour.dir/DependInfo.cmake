@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/ahmed-ferganey/EmbeddedSystem1/linux/desktop/MyGitHub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp" "CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o" "gcc" "CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o.d"
+  "/media/ahmed-ferganey/EmbeddedSystem1/MyGithub/CPP_CMake_Make_EmbeddedLinux_Master/CPP_Learning/C++11_17_20_23/try_assertion.cpp" "CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o" "gcc" "CMakeFiles/ProjectTwentyFour.dir/try_assertion.cpp.o.d"
   )
 
 # Targets to which this target links.
